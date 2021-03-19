@@ -26,7 +26,7 @@ public interface MazeInteraction {
 	 * This method returns boolean representing whether it is possible to move down from the current position.
 	 * @return boolean
 	 */
-	public void canGoDown();
+	public boolean canGoDown();
 	//methods for maze traversal
 	/**
 	 * This method should move the player character in the right hand direction.
